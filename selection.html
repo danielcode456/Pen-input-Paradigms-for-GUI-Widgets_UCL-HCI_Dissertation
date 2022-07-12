@@ -83,14 +83,15 @@
         mDown = false;
     });
 
-    window.addEventListener('touchmove', function (e) {
+    window.addEventListener('touchmove', (e) => {
+        e.preventDefault();
         const xPos = e.touches[0].pageX;
         const yPos = e.touches[0].pageY;
         const ele = document.elementFromPoint(xPos, yPos);
         if (ele.tagName === 'LI') {
             changeMe(ele)
         }
-    });
+    }, { passive: false });
 
     const fillDiv = document.getElementById('fill-holder');
 
