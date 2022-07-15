@@ -44,11 +44,11 @@ Here is the simple steps of how the gesture thing work
 
 &nbsp;
 
-Here is the simple steps of how the number incremental works
+Here is the simple steps of how the incremental number works
 - It is basic javascript functionality that allow us set mouseDown and mouseUp events on any element. So i have set two element "up arrow" and "down arrow" and set mouse event to them.
 - Calculated distance between the element's initial position and current position and keep increase/decrease value of input based on dragging distance
 
 &nbsp;
 
 Here is the simple steps of how the Gesture list selection works
-- As I already mentioned in above points, Just set events on the main window for mouse up/down and keep selecting items in list on hover of it when mouse/pen is being tap.
+- As I already mentioned in above points, Just set events on the main window for mouse up/down and keep selecting items in list on hover of it when mouse/pen is being tapped.
