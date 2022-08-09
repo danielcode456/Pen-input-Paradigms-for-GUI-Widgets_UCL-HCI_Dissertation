@@ -1,6 +1,6 @@
-# canvyu
+# Pen-input features
 
-Canvyu is the javascript based gesture detection code for touch/pen display
+Javascript based gesture detection code for touch/pen display
 
 ### Technologies used
 - Html
